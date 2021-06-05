@@ -1,0 +1,426 @@
+@charset "UTF-8";
+
+body {
+ width: 100%;
+ color: #333;
+ font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+
+li {
+ list-style: none;
+}
+
+a {
+ text-decoration: none;
+}
+
+img {
+ width: 100%;
+}
+
+.sec-title {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 80px;
+  color: #F39800;
+  text-align: center;
+}
+
+/*---------------------
+ヘッダー
+---------------------*/
+#top img {
+  width: 100%;
+  height: auto;
+}
+
+#header {
+ width: 100%;
+ padding: 0 50px;
+ background-color: #fff;
+ display: flex;
+ position: fixed;
+ z-index: 10;
+}
+
+.headerlogo {
+ margin: auto;
+}
+
+.headerlogo img {
+ width: 140px;
+}
+
+.header-right {
+ width: 100%;
+ padding-top: 35px;
+ font-size: 13px;
+}
+
+.navilist ul {
+ display: flex;
+ justify-content: flex-end;
+}
+
+.navilist li {
+ margin-left: 35px;
+}
+
+.snsicon {
+ padding: 20px 0 10px 0;
+}
+
+.snsicon ul {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.snsicon li {
+ margin-left: 12px;
+}
+
+.snsicon img {
+ width: 20px;
+}
+
+/*---------------------
+トップ
+---------------------*/
+#program-list {
+ width: 100%;
+ padding-top: 50px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+ color: #333;
+}
+
+.sliderArea {
+ padding: 0 100px;
+}
+
+
+/*---------------------
+出演者MC紹介
+---------------------*/
+#mc-intro {
+ width: 100%;
+ text-align: center;
+ padding-top: 80px;
+}
+
+.mcwrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#mc-intro ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+#mc-intro li {
+ width: 25%;
+ padding-bottom: 20px;
+}
+
+#mc-intro img {
+ width: 90%;
+}
+
+/*---------------------
+過去の実績
+---------------------*/
+#past-record {
+ width: 100%;
+ text-align: center;
+ padding-top: 80px;
+}
+
+.record-wrapper {
+ margin: 0 auto;
+ width: 70%;
+}
+
+.record1 {
+ display: flex;
+ align-items: center;
+ padding-bottom: 50px;
+}
+
+.record1 p {
+ padding-left: 50px;
+ text-align: left;
+ letter-spacing: 2px;
+}
+
+.record2 {
+ display: flex;
+ align-items: center;
+ padding-bottom: 50px;
+}
+
+.record2 p {
+ padding-right: 50px;
+ text-align: left;
+ letter-spacing: 2px;
+}
+
+.record-wrapper img {
+ width: 300px;
+}
+
+.record-slider {
+  width: 100%;
+}
+
+.record-slider ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.record-slider li {
+  width: 15%;
+  margin: 0 5px;
+}
+
+.record-slider img {
+  width: 100%;
+}
+
+/*---------------------
+広告一覧
+---------------------*/
+#adlist {
+ width: 100%;
+ padding: 80px 0;
+ text-align: center;
+ margin: 0 auto;
+}
+
+.logolist1,
+.logolist2 {
+  width: 700px;
+  height: 60px;
+  margin: auto;
+}
+
+.logolist1,
+.logolist2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logolist1 li,
+.logolist2 li {
+  width: 23%;
+}
+
+#adlist img {
+ width: 170px;
+}
+
+/*---------------------
+フッター
+---------------------*/
+#footer {
+ width: 100%;
+ height: 100%;
+}
+
+.footerlogo {
+ display: inline-block;
+ padding-top: 15px;
+ position: absolute;
+ top: end;
+}
+
+.footer-right {
+ display: flex;
+ justify-content: flex-end;
+ font-size: 13px;
+}
+
+.footer-right ul:first-child {
+ margin-right: 30px;
+}
+
+.footer-right li {
+ margin-bottom: 7px;
+}
+
+#footer img {
+ width: 110px;
+}
+
+#footer p {
+ text-align: center;
+ font-size: 10px;
+ color: #333;
+ padding: 10px;
+ background-color: #F39800;
+}
+
+
+/*---------------------
+ボイスサンプル
+---------------------*/
+#voicesample {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.voice-wrapper {
+  width: 100%;
+  padding: 0 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 18px;
+}
+
+.voice-list img {
+  width: 100%;
+  padding: 20px;
+}
+
+.voice-list {
+  width: 25%;
+  margin-bottom: 50px;
+}
+
+.voice-audio p {
+  font-size: 12px;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 7px;
+}
+
+audio {
+  width: 80%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+/*---------------------
+会社紹介
+---------------------*/
+#company-introduction {
+  width: 100%;
+  padding: 100px 50px;
+}
+
+#company-introduction img {
+  width: 40%;
+}
+
+.company-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.company-text {
+  padding-left: 80px;
+}
+
+.company-text h3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.company-text p {
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+.company-text dl {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.company-text dt {
+  width: 25%;
+  font-size: 0.9rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.company-text dd {
+  width: 75%;
+  font-size: 0.9rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gainsboro;
+}
+
+iframe {
+  width: 100%;
+  padding: 50px;
+}
+
+/*---------------------
+お問合せ
+---------------------*/
+#contact {
+  width: 100%;
+  padding: 100px 50px;
+}
+
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#contact dt {
+  width: 20%;
+  padding-right: 50px;
+  text-align: right;
+}
+
+#contact dd {
+  width: 80%;
+}
+
+#contact input {
+  width: 80%;
+  height: 40px;
+  border: 1px solid rgb(177, 177, 177);
+  margin: 0 0 30px 0;
+}
+
+#contact textarea {
+  width: 80%;
+  border: 1px solid rgb(177, 177, 177);
+}
+
+.contactbtn {
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.contactbtn input {
+  background-color: orange;
+  color: #333;
+}
+
+.contactbtn input:hover {
+  opacity: 70%;
+  transition: ease 0.3s;
+}
+
